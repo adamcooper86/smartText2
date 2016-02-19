@@ -9,9 +9,9 @@
  */
 angular.module('smartText2App')
   .controller('MainCtrl', function ($scope) {
-    $scope.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
+    $scope.flashCards = [
+      { prompt:'HTML5 Boilerplate', answer:"text" },
+      { prompt:'AngularJS', answer:"text" },
+      { prompt:'Karma', answer:"text" }
     ];
   });
